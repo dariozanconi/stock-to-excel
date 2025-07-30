@@ -3,11 +3,11 @@ Java Tool for viewing stock market data from Yahoo Finance and exporting to Exce
 
 ## Screenshots
 
-![Splash Screen](StockToExcel/resources/Screenshot_Stock_to_Excel_Home.png)
+![Splash Screen](StockToExcel/resources/Screenshot_Stock_to_Excel_Splash.png)
 
-![Home Screen](StockToExcel/resources/Screenshot_Stock_to_Excel_Home.png)
+![Home Screen](StockToExcel/resources/Screenshot_Stock_to_Excel_View.png)
 
-![Data View](StockToExcel/resources/Screenshot_Stock_to_Excel_View.png)
+![Data View](StockToExcel/resources/Screenshot_Stock_to_Excel_Home.png)
 
 ## Features
 - Search any ticker symbol (e.g. `AAPL`, `TSLA`, `MSFT`).
