@@ -4,7 +4,7 @@
   <artifactId>StockToExcel</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <build>
-    <sourceDirectory>src/src/main/java</sourceDirectory>
+    <sourceDirectory>src/main/java</sourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -14,6 +14,12 @@
         </configuration>
       </plugin>
     </plugins>
+    <resources>
+    <resource>
+      <directory>src/main/resources</directory>
+      <filtering>false</filtering>
+    </resource>
+  </resources>
   </build>
   <dependencies>
    <dependency>
