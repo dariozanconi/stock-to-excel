@@ -1,4 +1,6 @@
 
+import gui.GuiInterface;
+
 public class Main {
 	
 	/*

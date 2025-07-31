@@ -2,6 +2,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import core.Data;
+import core.Parser;
+
 class ParserTest {
 
 	@Test
