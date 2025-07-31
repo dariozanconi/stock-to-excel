@@ -12,7 +12,7 @@ import java.awt.event.ActionListener;
 
 public class GuiBuilder {
 	
-	/*
+	/* 
 	 * Class to build different GUI Components with the same features 
 	 */
 	

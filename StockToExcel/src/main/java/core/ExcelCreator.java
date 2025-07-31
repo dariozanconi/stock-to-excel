@@ -13,7 +13,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelCreator {
 	
-	/*  
+	/*   
 	 * The class ExcelCreator works with the Framework Apache POI.
 	 * Got an instance of ExcelCreator with the parameter of Data (Stock values etc.) and the boolean array setColumn (which values to be saved)
 	 * it returns with the method .createWorkbook a XSSFWorkbook (excel spreadsheet) with the corresponding data loaded

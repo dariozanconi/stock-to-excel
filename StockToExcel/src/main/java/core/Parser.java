@@ -16,7 +16,7 @@ import java.util.Date;
 
 public class Parser {
 	/*
-	 *  
+	 *   
 	 * 
 	 * The Class Parser provides extracting data making a query into Yahoo Finance database.
 	 * The extraction of Json data is done with Gson framework.  

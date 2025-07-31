@@ -18,7 +18,7 @@ import org.jfree.data.time.TimeSeriesCollection;
 
 public class StockChart extends ApplicationFrame {
 
-    /**
+    /** 
 	 *  
 	 */
 	

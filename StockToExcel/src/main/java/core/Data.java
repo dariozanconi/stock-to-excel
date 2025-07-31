@@ -7,7 +7,7 @@ import java.util.Date;
 
 public class Data {
 	
-	/*  
+	/*   
 	 * The class Data provides an object of type Data. The instance of Data stores the lists of values
 	 * of the requested stock product and its meta data.
 	 * 

@@ -18,7 +18,7 @@ public class SettingsPanel {
     }
 
     public void init(int x, int y) {
-    	
+    	 
     	// Create buttons of the corresponding setting values: 
     	// OPEN, HIGH, LOW, CLOSE etc.    	
         for (int i = 0; i < labels.length; i++) {       	
