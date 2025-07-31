@@ -83,7 +83,7 @@ public class Parser {
 						...
 			 */
 			
-			Gson gson = new Gson();
+			Gson gson = new Gson(); 
 			JsonObject root = gson.fromJson(json.toString(), JsonObject.class);
 			JsonObject chart = root.getAsJsonObject("chart");
 			JsonObject result = chart.getAsJsonArray("result").get(0).getAsJsonObject();

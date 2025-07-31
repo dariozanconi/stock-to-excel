@@ -16,7 +16,7 @@ public class SplashScreen extends JWindow {
 			getContentPane().add(splashLabel, BorderLayout.CENTER);
       
 			pack();
-			setLocationRelativeTo(null);        	
+			setLocationRelativeTo(null);        	 
 			setVisible(true);
 
 			try {

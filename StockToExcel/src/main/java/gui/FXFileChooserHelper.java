@@ -12,7 +12,7 @@ import java.io.File;
 
 public class FXFileChooserHelper {
 	
-	/*
+	/* 
 	 * the class FXFileChooserHelper creates a FileChooser with the framework JavaFX
 	 * the method openFileChoser open the FileChooser and passes a callback method as parameter to switch from FX-Thread back to Swing-Thread,
 	 * when the file is selected:

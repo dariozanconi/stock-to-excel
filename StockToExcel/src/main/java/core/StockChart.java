@@ -18,7 +18,7 @@ import org.jfree.data.time.TimeSeriesCollection;
 public class StockChart extends ApplicationFrame {
 
     /**
-	 * 
+	 *  
 	 */
 	
 	private static final long serialVersionUID = 1L;

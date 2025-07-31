@@ -5,7 +5,7 @@ import java.awt.*;
 public class GuiConstants {
 	    
 		
-	    //public static final Color BACKGROUND_COLOR = new Color(236, 239, 253);
+	    //public static final Color BACKGROUND_COLOR = new Color(236, 239, 253); 
 	    //public static final Color BACKGROUND_COLOR = new Color(197, 219, 191);
 	    public static final Color BACKGROUND_COLOR = new Color(208, 229, 201);
 

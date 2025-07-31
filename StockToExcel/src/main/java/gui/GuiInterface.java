@@ -11,7 +11,7 @@ import core.StockChart;
 
 public class GuiInterface extends JFrame{
     /**
-	 * 
+	 *  
 	 */
 	
 	private static final long serialVersionUID = 3593571954132289316L;

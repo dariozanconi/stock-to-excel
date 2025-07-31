@@ -5,7 +5,7 @@ public class Main {
 	
 	/*
 	 * STOCK TO EXCEL
-	 * Stock viewer / saving stock values into excel spreadsheet
+	 * Stock viewer / saving stock values into excel spreadsheet 
 	 * 
 	 * This software provides searching for products (equity, ETF, index etc.) of the stock market
 	 * The user insert the ticker symbol, interval and range, and will get a representation of the product (name, details and a chart)

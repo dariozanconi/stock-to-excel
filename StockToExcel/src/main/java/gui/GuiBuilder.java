@@ -12,7 +12,7 @@ import java.awt.event.ActionListener;
 public class GuiBuilder {
 	
 	/*
-	 * Class to build different GUI Components with the same features
+	 * Class to build different GUI Components with the same features 
 	 */
 	
     public JLabel createLabel(String text, int x, int y, int w, int h, Font font) {
