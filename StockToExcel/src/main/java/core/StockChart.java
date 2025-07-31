@@ -1,6 +1,7 @@
 package core;
 
 
+
 import org.jfree.chart.ChartPanel;
 import java.awt.BasicStroke;
 import java.awt.Color;

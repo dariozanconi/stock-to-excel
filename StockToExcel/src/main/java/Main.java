@@ -4,7 +4,7 @@ import gui.GuiInterface;
 public class Main {
 	
 	/*
-	 * STOCK TO EXCEL
+	 * STOCK TO EXCEL 
 	 * Stock viewer / saving stock values into excel spreadsheet 
 	 * 
 	 * This software provides searching for products (equity, ETF, index etc.) of the stock market

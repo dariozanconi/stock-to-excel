@@ -2,6 +2,7 @@ package gui;
 
 
 
+
 import javax.swing.*;
 import java.awt.*;
 import org.jfree.chart.ChartPanel;

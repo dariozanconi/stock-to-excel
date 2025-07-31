@@ -1,5 +1,6 @@
 package core;
 
+
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
@@ -15,7 +16,7 @@ import java.util.Date;
 
 public class Parser {
 	/*
-	 * 
+	 *  
 	 * 
 	 * The Class Parser provides extracting data making a query into Yahoo Finance database.
 	 * The extraction of Json data is done with Gson framework.  
