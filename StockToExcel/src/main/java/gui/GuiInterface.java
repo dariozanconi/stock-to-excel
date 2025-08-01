@@ -26,7 +26,6 @@ public class GuiInterface extends JFrame{
     private ChartPanel chartPanel;
     private SettingsPanel settings;
 
-
     private final GuiBuilder builder = new GuiBuilder();
     private final GuiActions actions = new GuiActions(this);
 
@@ -117,7 +116,6 @@ public class GuiInterface extends JFrame{
 
     @SuppressWarnings("unused")
 	public void showData(Data data) {
-    	
         if (stockDetail != null) {         // If data are already shown, remove everything
         	
         	if (errorLabel!=null) {
@@ -168,7 +166,7 @@ public class GuiInterface extends JFrame{
 		
 		//EXCEL Button
 		createButton = builder.createIconButton(GuiConstants.ICON_EXCEL, 484, 127, 74, 74,
-	            e -> actions.onCreateExcel(data, settings.getSettings()));
+	            e -> actions.onCreateExcel(settings.getSettings()));
         builder.addIconHoverEffect(createButton, GuiConstants.ICON_EXCEL, GuiConstants.ICON_ENTERED, GuiConstants.ICON_EXCEL, 54, 77, 45);
         
         mainPanel.add(stockDetail);

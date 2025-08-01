@@ -16,6 +16,7 @@ public class GuiActions {
     private final GuiInterface gui;
     private String range = "1y";
     private String interval = "1d";
+    private Data data;
 
     public GuiActions(GuiInterface gui) {
         this.gui = gui;
@@ -24,7 +25,7 @@ public class GuiActions {
     public void onSearch(String symbol) {
     	    	
         Parser parser = new Parser();
-        Data data = parser.getData(symbol, range, interval);
+        data = parser.getData(symbol, range, interval);
         if (data == null) {
             gui.showError("Enter a valid ticker symbol");
         } else {
@@ -40,7 +41,7 @@ public class GuiActions {
         interval = (String) box.getSelectedItem();
     }
 
-    public void onCreateExcel(Data data, Boolean[] settings) {
+    public void onCreateExcel( Boolean[] settings) {
         FXFileChooserHelper.openFileChooser(data.getName() + "_" + range + ".xlsx", file -> {
             ExcelCreator creator = new ExcelCreator(data, settings);
             try (var out = new java.io.FileOutputStream(file)) {
